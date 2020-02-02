@@ -1,6 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+I kept most of the generated readme intact. 
+This is a sample project with json-server already installed.
+json-server is a npm package that will help us to run a mock server.
+More information about it can be found [here](https://github.com/typicode/json-server)
 
-## Available Scripts
+
+## Available Scripts (modified)
 
 In the project directory, you can run:
 
@@ -11,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+It also runs a json-server in parallel using npm-run-all. <br/>
+The REST API runs on [http://localhost:3004](http://localhost:3004)
 
 ### `npm test`
 
