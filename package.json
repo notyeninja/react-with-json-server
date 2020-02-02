@@ -12,7 +12,7 @@
     "react-scripts": "3.3.1"
   },
   "scripts": {
-    "start": "npm-run-all --parallel react",
+    "start": "npm-run-all --parallel react json-server",
     "react": "react-scripts start",
     "json-server": "json-server --watch ./db.json --port 3004",
     "build": "react-scripts build",
